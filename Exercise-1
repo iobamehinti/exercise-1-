@@ -1,0 +1,10 @@
+# Create a program that asks user to enter their name and age
+# Print out message that addresses them and tells them the year they will turn 100
+
+name = input("what is your name? ")
+age = int(input("What is your age? "))
+
+age_math = 100 - age
+age_year = str(2020 + age_math)
+
+print('Hello ' + name, ", In the year " + age_year, "you will turn 100! ")
